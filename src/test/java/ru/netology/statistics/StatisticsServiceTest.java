@@ -19,18 +19,18 @@ class StatisticsServiceTest {
         assertEquals(expected, actual);
 
     }
-//    @Test
-//    void shouldfindMaxComplete() {
-//
-//        StatisticsService service = new StatisticsService();
-//
-//        long[] incomesInBillions = {12, 5, 13, 1, 18, 6, 7, 10, 11, 20};
-//        long expected = 20;
-//
-//        long actual = service.findMax(incomesInBillions);
-//
-//        assertEquals(expected, actual);
-//
-//    }
+    @Test
+    void shouldfindMaxComplete() {
+
+        StatisticsService service = new StatisticsService();
+
+        long[] incomesInBillions = {12, 5, 13, 1, 18, 6, 7, 10, 11, 20};
+        long expected = 20;
+
+        long actual = service.findMax(incomesInBillions);
+
+        assertEquals(expected, actual);
+
+    }
 
 }
